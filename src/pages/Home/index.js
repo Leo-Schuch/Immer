@@ -16,7 +16,7 @@ export default function Home() {
         imagem={relogio}
         className={styles.header}
       >
-        <Button>
+        <Button onClick={() => navigate('/anuncie')}>
           Quero Anunciar
         </Button>
       </Header>
